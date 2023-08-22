@@ -1,19 +1,17 @@
 .navigation {
   width: 100%;
-  display: flex;
 }
 .navigation__nav {
-  width: 100%;
   display: flex;
   justify-content: space-around;
   align-items: center;
 }
-.navigation__nav__div {
+.navigation__nav__containerImg {
   width: 30%;
   display: flex;
   justify-content: flex-start;
 }
-.navigation__nav__div__img {
+.navigation__nav__containerImg__img {
   width: 200px;
   display: flex;
 }
