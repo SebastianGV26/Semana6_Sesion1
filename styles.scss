@@ -1,0 +1,42 @@
+$tamaño_imagen: 200px;
+$colonav: slategray;
+
+.navigation {
+    width: 100%;
+    display: flex;
+
+    &__nav {
+        width: 100%;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+
+        &__div {
+            width: 30%;
+            display: flex;
+            justify-content: flex-start;
+            &__img {
+                width: $tamaño_imagen;
+                display: flex;
+            }
+        }
+
+        &__ul {
+            width: 50%;
+            display: flex;
+            justify-content: space-evenly;
+            &__li {
+                list-style: none;
+
+                &__link {
+                    text-decoration: none;
+                    color: $colonav;
+                    font-family: Arial, Helvetica, sans-serif;
+                    font-size: 1.5rem;
+                    font-weight: 900;
+
+                }
+            }
+        }
+    }
+}
